@@ -1,0 +1,64 @@
+@import url("http://meyerweb.com/eric/tools/css/reset/v2.0");
+  
+:root {
+ --light-color: #fdfffcff;
+ --yellow-color: #ffad05ff;
+ --red-color: #fd3516ff;
+ --dark-color: #011627ff;
+ --blue-color: #5995edff;
+ --font-size: 18px;
+ --line-height: 1.5;
+}
+   
+body {
+    font-family: Arial, sans-serif;
+    color: var(--dark-color);
+ }
+    
+.body__videos-link,body__mentions-link,body__articles-link { 
+    text-decoration: none;
+
+}
+ 
+ h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 50px;
+    color: var(--yellow-color);
+ }
+    
+ h2 {
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    color: var(--blue-color);
+ }
+    
+ .articles,
+ .mentions,
+ .videos {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+ }
+    
+ .articles li,
+ .mentions li,
+ .videos li {
+    margin-bottom: 25px;
+    color: var(--red-color);
+ }
+    
+ .articles a,
+ .mentions a,
+ .videos a {
+    font-size: var(--font-size);
+    color: var(--light-color);
+    text-decoration: none;
+ }
+    
+ iframe {
+    width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+ }

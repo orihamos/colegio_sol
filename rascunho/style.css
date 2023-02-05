@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+ }
+ 
+ h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 50px;
+ }
+ 
+ h2 {
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+ }
+ 
+ .articles,
+ .mentions,
+ .videos {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ .articles li,
+ .mentions li,
+ .videos li {
+    margin-bottom: 25px;
+ }
+ 
+ .articles a,
+ .mentions a,
+ .videos a {
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+ }
+ 
+ iframe {
+    width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+ }
+ 
