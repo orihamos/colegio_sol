@@ -1,101 +1,109 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <!-- CSS reset stylesheet -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="author" content="Somahiro">
-    <meta name="description" content="Site colegio raio de luz">
-    <meta name="instagram:description" content="Colégio Raio de Luz">
-    <meta name="instagram:site" content="@colegioraiodeluz">
-    <meta name="instagram:title" content="Colégio Raio de Luz">
-    <meta name="keywords" content="school, education, courses, events, contact,escola,educação,ensino,criança,professores,karate,ballet,capoeira">
-    <meta name="robots" content="index,follow">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:description" content="Bem vindo ao Colégio Raio de Luz">
-    <meta property="og:title" content="Colégio Raio de Luz">
-    <title>Colégio Raio de Luz</title>
-</head>
-<body>
-  <header class="header">
-    <nav class="header__nav">
-      <ul class="header__list">
-        <li class="header__item"><a href="#home">Pagina inicial</a></li>
-         <li class="header__item"><a href="#about" aria-label="Ir para seção Sobre nós">Sobre nós</a></li>
-         <li class="header__item"><a href="#courses" aria-label="Ir para seção Cursos">Cursos</a></li>
-         <li class="header__item"><a href="#events" aria-label="Ir para seção Eventos">Eventos</a></li>
-         <li class="header__item"><a href="#contact" aria-label="Ir para seção Contato">Contato</a></li>
-         <li class="header__item"><a href="#login" aria-label="Ir para seção Login">Login</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section id="home" class="home">
-      <h1 class="home__title">Bem-vindo ao Colégio Raio de Luz</h1>
-      <p class="home__text">Aqui você encontrará informações sobre nossa escola e eventos futuros.</p>
-    </section>
-    <section id="about" class="about">
-      <h2 class="about__title">Sobre nós</h2>
-      <p class="about__text">Somos uma escola com mais de 25 anos de experiência no ensino de qualidade. Oferecemos cursos desde o ensino fundamental até ensino médio, com professores qualificados e um ambiente de aprendizado acolhedor.</p>
-    </section>
-    <section id="courses" class="courses">
-      <h2 class="courses__title">Cursos</h2>
-      <ul class="courses__list" aria-label="Lista de cursos">
-        <li class="courses_item">Ensino fundamental</li>
-        <li class="courses_item">Ensino médio</li>
-        <li class="courses_item">Cursos Técnicos</li>
-        <li class="courses_item">Idiomas</li>
-        <li class="courses_item">Artes</li>
-        <li class="courses_item">ballet</li>
-        <li class="courses_item">capoeira</li>
-        <li class="courses_item">karate</li>
-      </ul>
-    </section>
-    <section id="events" class="events" aria-label="Lista de eventos">
-      <h2 class="events__title">Eventos</h2>
-      <ul class="events__list">
-        <li class="events__item">Exposição de Trabalhos 1</li>
-        <li class="event__item">Festa Junina</li>
-        <li class="event__item">Festa de Final de Ano</li>
-        <li class="event__item">Gincana Esportiva</li>
-        <li class="event__item">Semana Cultural</li>
-      </ul>
-    </section>
-    <section id="contact-adress" class="section-contact-adress">
-      <h2>Contato</h2>
-      <p>Endereço: Av. Dioguinho, 5716 - Vicente Pinzon, Fortaleza - CE, 60183-706</p>
-      <p>Telefone:  <a href="https://l.instagram.com/?u=http%3A%2F%2Fbit.ly%2FWhatsCRaiodeLuz&e=AT3mpZ4P3lVGamFsC0k9NZ259dMkmJK3B8aSH9MekRtIFxVym1fA32kkPNU7LS28BKvns-ZS6C2nnkIZLRmhJmM2OS14CyEO&s=1">(85) 99715-9970 </a></p>
-      <p>Para entrar em contato conosco, por favor, preencha o formulário abaixo ou envie um e-mail para <a href="mailto:contato@colegioraiodeluz.com.br">contato@colegioraiodeluz.com.br</a>.</p>
-    </section>
-    <section id="contact" class="section-contact">
-      <h2>Envie-nos uma mensagem</h2>
-      <form action="submit-form.php" method="post" class="contact-form">
-        <label for="name">Nome:</label>
-        <input type="text" id="name" name="name"  placeholder="Nome" aria-label="Nome completo"  aria-required="true" required>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email"  placeholder="E-mail" aria-label="Endereço de e-mail" aria-required="true"  required>
-        <label for="message">Mensagem:</label>
-        <textarea id="message" name="message" placeholder="Mensagem" aria-label="Mensagem a ser enviada" aria-required="true" required></textarea>
-        <button type="submit"  value="Enviar" aria-label="Botão para enviar formulário">Enviar</button>
-      </form>
-    </section>
-    <section id="login"  class="section-login">
-      <h2>Login</h2>
-      <form class="login-form">
-        <label for="username">Nome de usuário:</label>
-        <input type="text" id="username" name="username">
-        <br>
-        <label for="password">Senha:</label>
-        <input type="password" id="password" name="password">
-        <br>
-        <input type="submit" value="Entrar">
-      </form>
-    </section>
-  </main>
-  <footer>
-    <p>Copyright © 2022 Colégio Raio de Luz</p>
-  </footer>
-</body>
+   <head>
+      <link rel="stylesheet" type="text/css" href="styles.css">
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="author" content="Somahiro">
+      <meta name="description" content="Site do Colégio Sol">
+      <meta name="instagram:description" content="Colégio Sol">
+      <meta name="instagram:site" content="@colegiosol">
+      <meta name="instagram:title" content="Colégio Sol">
+      <meta name="keywords" content="school, education, courses, events, contact, escola, educação, ensino, criança, professores, karate, ballet, capoeira, colegio sol, escolinha, Fortaleza, Ceará">
+      <meta name="robots" content="index,follow">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta property="og:description" content="Bem-vindo ao Colégio Sol">
+      <meta property="og:title" content="Colégio Sol">
+      <title>Colégio Sol</title>
+   </head>
+   <body>
+      <header class="header">
+         <nav class="header__nav">
+            <ul class="header__list">
+               <li class="header__list-item"><a href="#home">Pagina inicial</a></li>
+               <li class="header__list-item"><a href="#about" aria-label="Ir para seção Sobre nós">Sobre nós</a></li>
+               <li class="header__list-item"><a href="#courses" aria-label="Ir para seção Cursos">Cursos</a></li>
+               <li class="header__list-item"><a href="#events" aria-label="Ir para seção Eventos">Ações</a></li>
+               <li class="header__list-item"><a href="#contact" aria-label="Ir para seção Contato">Contato</a></li>
+               <li class="header__list-item"><a href="/artigos.html" aria-label="Ir para seção artigos">Midia</a></li>
+               <li class="header__list-item"><a href="/historia.html" aria-label="Ir para seção historia">Historia</a></li>
+            </ul>
+         </nav>
+      </header>
+      <main>
+         <section id="home" class="section-home section">
+            <h1 class="section-home__title">SOL</h1>
+            <p class="section-home__text">A Escolinha SOL  é uma escola localizada no bairro Praia do Futuro II, em Fortaleza/CE. Ela oferece dependências com acessibilidade e oferece creche, educação especial, ensino fundamental - anos iniciais 1 ao 5 e pré-escola com uma concorrência de <a href="https://www.somosvos.com.br/escola-gratuita-no-caca-e-pesca-tem-concorrencia-de-80-criancas-por-vaga-saiba-por-que/">80 crianças por vaga</a>.</p>
+         </section>
+         <section id="about" class="about">
+            <h2 class="section-about__title">Solidariedade Operosidade e Liberdade</h2>
+            <p class="section-about__text">A escola tem um programa de ensino inovador, que inclui aulas de ciências, matemática, línguas, artes e muito mais. Além disso, a escola oferece atividades extracurriculares, como esportes, música, dança e teatro. A Escola Sol também tem um programa de voluntariado, onde os alunos podem ajudar a comunidade local.</p>
+         </section>
+         <section class="services">
+            <h2 class="services__title">Serviços</h2>
+            <ul class="services__list">
+               <li class="services__item">Creche</li>
+               <li class="services__item">Educação Especial</li>
+               <li class="services__item">Ensino Fundamental</li>
+               <li class="services__item">Ensino Fundamental - Anos Iniciais 1 ao 5</li>
+               <li class="services__item">Pré-escola</li>
+            </ul>
+         </section>
+         <section class="disciplines">
+            <h2 class="disciplines__title">Disciplinas</h2>
+            <ul class="disciplines__list">
+               <li class="disciplines__item">Artes (Educação Artística, Teatro, Dança, Música, Artes Plásticas e outras)</li>
+               <li class="disciplines__item">Ciências</li>
+               <li class="disciplines__item">Educação Física</li>
+            </ul>
+         </section>
+         <section id="events" class="events" aria-label="Lista de eventos">
+            <h2 class="events__title">Ações</h2>
+            <ul class="events__list">
+               <li class="events__item">Exposição de Trabalhos 1</li>
+               <li class="event__item">Festa Junina</li>
+               <li class="event__item">Festa de Final de Ano</li>
+               <li class="event__item">Gincana Esportiva</li>
+               <li class="event__item">Semana Cultural</li>
+            </ul>
+         </section>
+         <section class="school-facilities">
+         <h2 class="school-facilities__title">Instalações</h2>
+         <ul class="school-facilities__list">
+            <li class="school-facilities__item">Biblioteca</li>
+            <li class="school-facilities__item">Cozinha</li>
+            <li class="school-facilities__item">Laboratório de Informática</li>
+            <li class="school-facilities__item">Quadra de Esportes</li>
+            <li class="school-facilities__item">Retroprojetor/Projetor</li>
+            <li class="school-facilities__item">Sala da Diretoria</li>
+            <li class="school-facilities__item">Sala de Leitura</li>
+            <li class="school-facilities__item">Internet</li>
+         </ul>
+         </section>
+         <section class="school-summary">
+            <h2 class="school-summary__heading">Escola SOL: Educação de Qualidade para a Região de Fortaleza</h2>
+            <p class="school-summary__text">Com muito trabalho e dedicação, a Escola SOL foi construída e oferece educação de qualidade para crianças da região de Fortaleza. Seu objetivo é formar crianças com valores e conhecimentos para que elas sejam cidadãos responsáveis e participativos na sociedade.</p>
+            <p class="school-summary__text">Os programas de ensino incluem aulas nas disciplinas básicas, além de atividades extracurriculares como esportes, música, dança e teatro. A escola também possui um programa de voluntariado, onde os alunos podem contribuir para a comunidade local.</p>
+            <h3 class="school-summary__subheading">Contatos</h3>
+            <ul class="school-summary__list">
+               <li class="school-summary__item">Endereço: RUA JAMAICA 410, Bairro CACA E PESCA, Fortaleza - CE, 60183-700</li>
+               <li class="school-summary__item">Telefone: (85) 3262-2946</li>
+               <li class="school-summary__item">E-mail: <a href="mailto:ss.liberdade@bol.com.br">ss.liberdade@bol.com.br</a></li>
+            </ul>
+            <p class="school-summary__text">Em resumo, a Escola SOL é uma instituição comprometida em oferecer uma educação de qualidade para as crianças da região de Fortaleza, com programas inovadores e uma equipe de professores altamente capacitados e preocupados com a comunidade.</p>
+         </section>
+         <section id="contact" class="section-contact">
+            <h2>Envie-nos uma mensagem</h2>
+            <form action="submit-form.php" method="post" class="contact-form">
+               <label for="name">Nome:</label>
+               <input type="text" id="name" name="name"  placeholder="Nome" aria-label="Nome completo"  aria-required="true" required>
+               <label for="email">Email:</label>
+               <input type="email" id="email" name="email"  placeholder="E-mail" aria-label="Endereço de e-mail" aria-required="true"  required>
+               <label for="message">Mensagem:</label>
+               <textarea id="message" name="message" placeholder="Mensagem" aria-label="Mensagem a ser enviada" aria-required="true" required></textarea>
+               <button type="submit"  value="Enviar" aria-label="Botão para enviar formulário">Enviar</button>
+            </form>
+         </section>
+      </main>
+   </body>
 </html>
